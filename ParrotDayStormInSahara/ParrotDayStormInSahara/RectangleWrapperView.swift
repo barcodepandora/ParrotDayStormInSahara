@@ -16,7 +16,6 @@ struct RectangleWrapperView: View {
     }
     
     var body: some View {
-//        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         Rectangle()
             .frame(width: 98 + thisIssAState!, height: 42)
             .foregroundColor(Color.blue)
@@ -26,5 +25,5 @@ struct RectangleWrapperView: View {
 }
 
 #Preview {
-    RectangleWrapperView(thisIssAState: 1.0)
+    RectangleWrapperView(thisIssAState: 1)
 }

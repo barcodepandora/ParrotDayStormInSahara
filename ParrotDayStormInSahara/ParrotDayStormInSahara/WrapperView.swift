@@ -9,14 +9,14 @@ import SwiftUI
 
 struct WrapperView: View {
     
-    @State var thisIsAFoo = 1
+    @State var thisIsAFoo = LifecycleManager.shared.aClockForTheLifecycle.counter
     var timer = Timer.publish(every: 0.01, on: .main, in: .common).autoconnect()
 
     var body: some View {
-//        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         RectangleWrapperView(thisIssAState: CGFloat(thisIsAFoo))
             .onReceive(timer) { _ in
                 thisIsAFoo += 1
+                print(thisIsAFoo)
             }
 
     }
