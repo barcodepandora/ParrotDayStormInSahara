@@ -17,6 +17,8 @@
 		562CBD202BE00E5800280D6A /* BarChartRaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562CBD1F2BE00E5700280D6A /* BarChartRaceView.swift */; };
 		562CBD222BE019A200280D6A /* RectangleBarChartRaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562CBD212BE019A200280D6A /* RectangleBarChartRaceView.swift */; };
 		562CBD242BE01CD000280D6A /* LifecycleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562CBD232BE01CD000280D6A /* LifecycleManager.swift */; };
+		562CBD262BE0431B00280D6A /* WrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562CBD252BE0431B00280D6A /* WrapperView.swift */; };
+		562CBD282BE0443400280D6A /* RectangleWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562CBD272BE0443400280D6A /* RectangleWrapperView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		562CBD1F2BE00E5700280D6A /* BarChartRaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartRaceView.swift; sourceTree = "<group>"; };
 		562CBD212BE019A200280D6A /* RectangleBarChartRaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleBarChartRaceView.swift; sourceTree = "<group>"; };
 		562CBD232BE01CD000280D6A /* LifecycleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleManager.swift; sourceTree = "<group>"; };
+		562CBD252BE0431B00280D6A /* WrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperView.swift; sourceTree = "<group>"; };
+		562CBD272BE0443400280D6A /* RectangleWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleWrapperView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 			children = (
 				562CBCF52BDFE1EC00280D6A /* ParrotDayStormInSaharaApp.swift */,
 				562CBCF72BDFE1EC00280D6A /* ContentView.swift */,
+				562CBD252BE0431B00280D6A /* WrapperView.swift */,
+				562CBD272BE0443400280D6A /* RectangleWrapperView.swift */,
 				562CBD1F2BE00E5700280D6A /* BarChartRaceView.swift */,
 				562CBD212BE019A200280D6A /* RectangleBarChartRaceView.swift */,
 				562CBCF92BDFE1F000280D6A /* Assets.xcassets */,
@@ -268,8 +274,10 @@
 			files = (
 				562CBCF82BDFE1EC00280D6A /* ContentView.swift in Sources */,
 				562CBD222BE019A200280D6A /* RectangleBarChartRaceView.swift in Sources */,
+				562CBD282BE0443400280D6A /* RectangleWrapperView.swift in Sources */,
 				562CBD242BE01CD000280D6A /* LifecycleManager.swift in Sources */,
 				562CBCF62BDFE1EC00280D6A /* ParrotDayStormInSaharaApp.swift in Sources */,
+				562CBD262BE0431B00280D6A /* WrapperView.swift in Sources */,
 				562CBD202BE00E5800280D6A /* BarChartRaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

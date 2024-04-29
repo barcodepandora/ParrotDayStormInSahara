@@ -19,13 +19,14 @@ struct ContentView: View {
 //                .imageScale(.large)
 //                .foregroundStyle(.tint)
 //            Text("Ready 4 Networking")
-            BarChartRaceView()
+//            BarChartRaceView()
+            WrapperView()
         }
-        .onReceive(timer) { _ in
-            LifecycleManager.shared.aClockForTheLifecycle.counter += 1
-            print(LifecycleManager.shared.aClockForTheLifecycle.counter)
-            thisIsAFoo += 1
-        }
+//        .onReceive(timer) { _ in
+//            LifecycleManager.shared.aClockForTheLifecycle.counter += 1
+//            print(LifecycleManager.shared.aClockForTheLifecycle.counter)
+//            thisIsAFoo += 1
+//        }
 //        .padding()
         
     }
